@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://serioussamv.github.io", // replace this with your deployed domain
   author: "Paul Samuel Vishesh",
   profile: "https://satnaing.dev/",
   desc: "A personal blog and portfolio site showcasing my professional work, projects, and thoughts. This repository contains the complete source code for my personal website where I share my experiences, skills, and creative endeavors.",
