@@ -43,10 +43,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p class="text-lg leading-relaxed">
-        <span class="font-semibold">Software Architect & Technology Strategist</span> with 8+ years of expertise in designing scalable, robust systems and leading cross-functional teams. 
+        <span class="font-semibold"
+          >Software Architect & Technology Strategist</span
+        > with 8+ years of expertise in designing scalable, robust systems and leading
+        cross-functional teams.
       </p>
       <p class="mt-4 leading-relaxed">
-        I create innovative solutions that leverage AI/ML and modern architectural patterns to solve complex business challenges.
+        I create innovative solutions that leverage AI/ML and modern
+        architectural patterns to solve complex business challenges.
       </p>
       <div class="mt-4">
         <LinkButton
@@ -57,9 +61,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </LinkButton>
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/projects"
+          href="/portfolio"
         >
-          View Projects
+          View Portfolio
         </LinkButton>
       </div>
       {
@@ -74,8 +78,6 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     </section>
 
     <Hr />
-
-
 
     {
       featuredPosts.length > 0 && (
