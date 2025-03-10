@@ -9,7 +9,7 @@ import { SITE } from "@/config";
     <div class="mx-auto flex w-full max-w-3xl items-center justify-start px-2">
       <LinkButton
         id="back-button"
-        href="/"
+        href={`${SITE.base}/`}
         class="focus-outline mt-8 mb-2 flex hover:text-foreground/75"
       >
         <IconChevronLeft class="inline-block size-6" />
@@ -19,16 +19,17 @@ import { SITE } from "@/config";
   )
 }
 
-<script>
-  /* Update Search Praam */
+<script define:vars={{ base: SITE.base }}>
+  /* Update Search Param */
   function updateGoBackUrl() {
-    const backButton: HTMLAnchorElement | null =
-      document.querySelector("#back-button");
+    const backButton = /** @type {HTMLAnchorElement | null} */ (
+      document.querySelector("#back-button"));
 
     const backUrl = sessionStorage.getItem("backUrl");
 
     if (backUrl && backButton) {
-      backButton.href = backUrl;
+      // Make sure backUrl has the correct base path
+      backButton.href = backUrl.startsWith("/") ? `${base}${backUrl}` : backUrl;
     }
   }
 
