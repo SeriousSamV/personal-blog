@@ -39,6 +39,8 @@ When I'm not architecting systems or writing code, you might find me:
 
 I'm always interested in connecting with fellow technologists, potential collaborators, or anyone passionate about using technology to solve meaningful problems.
 
-Feel free to reach out through any of the social platforms linked below, or check out my [portfolio](/portfolio) to see some of the projects I've worked on.
+Feel free to reach out through the social links in the footer below, or check out my [portfolio](/portfolio) to see some of the projects I've worked on.
+
+Connect with me on [GitHub](https://github.com/SeriousSamV), [LinkedIn](https://www.linkedin.com/in/paul-samuel-vishesh), [Twitter](https://twitter.com/SeriousSamV), or [email me](mailto:paulsamuelvishesh@live.com) - I'm always excited to collaborate on innovative projects.
 
 Let's build something amazing together!
