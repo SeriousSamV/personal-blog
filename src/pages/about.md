@@ -1,36 +1,44 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## Who I Am
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Hey there! I'm Paul Samuel Vishesh, a Software Architect and Technology Strategist who loves solving complex problems with elegant solutions. I work with enterprise systems and emerging tech, helping businesses transform their ideas into reality. While I'm passionate about code architecture and system design, I believe technology should ultimately make people's lives better. I enjoy finding the balance between technical excellence and practical solutions that deliver real value.
 
 <div>
   <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+## My Journey
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+My technology journey began with a background in Mechanical Engineering from Karunya University, but I quickly found my true calling in software development. What started as curiosity has evolved into a deep expertise across multiple programming paradigms and architectures.
 
-## Features
+Over the past 8+ years, I've had the privilege of working on systems that serve millions of users, leading teams that build products from the ground up, and mentoring the next generation of developers.
 
-Here are certain features of this site.
+## Philosophy & Approach
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+I approach technology with these core principles:
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- **Simplicity over complexity**: Even the most sophisticated systems should be built on clean, understandable foundations.
+- **User-centered design**: Technology exists to serve people, not the other way around.
+- **Continuous learning**: The tech landscape evolves rapidly, and so should we.
+- **Collaborative innovation**: The best solutions emerge when diverse perspectives come together.
+
+## Beyond Technology
+
+When I'm not architecting systems or writing code, you might find me:
+
+- Exploring the latest in AI and machine learning research
+- Contributing to open-source projects
+- Reading about system design and architectural patterns
+- Sharing knowledge through mentoring and technical discussions
+
+## Connect With Me
+
+I'm always interested in connecting with fellow technologists, potential collaborators, or anyone passionate about using technology to solve meaningful problems.
+
+Feel free to reach out through any of the social platforms linked below, or check out my [portfolio](/portfolio) to see some of the projects I've worked on.
+
+Let's build something amazing together!
