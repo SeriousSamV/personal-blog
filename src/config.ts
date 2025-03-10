@@ -1,10 +1,10 @@
 export const SITE = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
+  author: "Paul Samuel Vishesh",
   profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  desc: "A personal blog and portfolio site showcasing my professional work, projects, and thoughts. This repository contains the complete source code for my personal website where I share my experiences, skills, and creative endeavors.",
+  title: "Paul Samuel Vishesh",
+  ogImage: "https://avatars.githubusercontent.com/u/2021323",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -12,7 +12,7 @@ export const SITE = {
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/SeriousSamV/personal-blog/edit/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
