@@ -83,6 +83,9 @@ jobs:
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
+        env:
+          CONFIG_WEBSITE: ${{ secrets.CONFIG_WEBSITE }}
+          CONFIG_BASE: ${{ secrets.CONFIG_BASE }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

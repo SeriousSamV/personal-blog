@@ -55,13 +55,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <div class="mt-4">
         <LinkButton
           class="mr-4 underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/about"
+          href={`${SITE.base}/about`}
         >
           About Me
         </LinkButton>
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/portfolio"
+          href={`${SITE.base}/portfolio`}
         >
           View Portfolio
         </LinkButton>

@@ -1,6 +1,10 @@
+import { loadEnv } from "vite";
+
+const { CONFIG_WEBSITE, CONFIG_BASE } = loadEnv(process.env.NODE_ENV ?? "development", process.cwd(), "");
+
 export const SITE = {
-  website: "https://serioussamv.github.io", // replace this with your deployed domain
-  base: '/personal-blog',
+  website: CONFIG_WEBSITE ?? "http://localhost:4321", // replace this with your deployed domain
+  base: CONFIG_BASE ?? "/personal-blog",
   author: "Paul Samuel Vishesh",
   profile: "https://satnaing.dev/",
   desc: "A personal blog and portfolio site showcasing my professional work, projects, and thoughts. This repository contains the complete source code for my personal website where I share my experiences, skills, and creative endeavors.",
